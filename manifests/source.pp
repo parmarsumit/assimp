@@ -4,10 +4,11 @@ class assimp::source(
 )
 {
 	archive { "assimp-${version}":
-  	ensure => present,
-  	url    => "$assimpurl",
-  	target => '/opt',
-		checksum => false,
+  	ensure		=> present,
+  	url    		=> "$assimpurl",
+  	target 		=> '/opt',
+		extension => 'zip'
+		checksum 	=> false,
 		timeout   => "1800"
 	}
 

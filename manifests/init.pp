@@ -20,7 +20,7 @@ class assimp (
     before => Class["assimp::source"]
   }
 
-  $assimpurl="${url}/v${version}.tar.gz"
+  $assimpurl="${url}/v${version}.zip"
 
   class { assimp::source:
     version   => $version,

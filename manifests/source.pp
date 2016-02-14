@@ -13,7 +13,7 @@ class assimp::source(
 
 	file { '/opt/assimp':
 		ensure  => link,
-		target  => "/opt/assimp-${version}"",
+		target  => "/opt/assimp-${version}",
 		require => Archive["assimp-${version}"],
 	}
 }

@@ -14,7 +14,7 @@ class assimp (
     ],
     logoutput => on_failure,
   }
-  validate_re($version, '^[5-8]([\.0-9]+)?$')
+  validate_re($version, '^[3-8]([\.0-9]+)?$')
 
   dependencies{ $dependencies:
     before => Class["assimp::source"]

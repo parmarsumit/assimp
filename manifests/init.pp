@@ -29,4 +29,8 @@ class assimp (
   class { assimp::make:
     require => Class["assimp::source"]
   }
+  file_line { 'assimp_env':
+    line => 'PATH=$PATH:/opt/assimp/bin',
+    path => '/etc/environment',
+ }
 }

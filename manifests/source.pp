@@ -8,6 +8,7 @@ class assimp::source(
   		url    => "$assimpurl",
   		target => '/opt',
 		extension => 'zip',
+		checksum => false,
 		timeout   => "1800"
 	}
 }

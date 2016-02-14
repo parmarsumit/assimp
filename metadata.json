@@ -1,0 +1,43 @@
+{
+  "operatingsystem_support": [
+    {
+      "operatingsystemrelease": [
+        "14.04"
+      ],
+      "operatingsystem": "ubuntu"
+    },
+  ],
+  "license": "Apache License, Version 2.0",
+  "dependencies": [
+    {
+      "version_requirement": ">=3.2.0 <5.0.0",
+      "name": "puppetlabs/stdlib"
+    },
+    {
+      "version_requirement": "0.8.1",
+      "name": "camptocamp/archive"
+    },
+    {
+      "version_requirement": "2.2.1",
+      "name": "puppetlabs/apt"
+    },
+  ],
+  "description": "A Puppet module that installs assimp.",
+  "requirements": [
+    {
+      "version_requirement": "3.x",
+      "name": "puppet"
+    }
+  ],
+  "name": "puppet-assimp",
+  "project_page": "https://github.com/OpsTree/assimp",
+  "version": "0.0.1",
+  "author": "sandeep rawat",
+  "checksums": {
+  },
+  "summary": "A Puppet module that installs assimp.",
+  "types": [
+
+  ],
+  "source": "https://github.com/OpsTree/assimp.git"
+}

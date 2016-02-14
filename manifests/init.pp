@@ -1,7 +1,7 @@
 class assimp (
   $version        = "3.1",
   $dependencies   = [ "build-essential","zlib1g-dev","unzip","cmake" ],
-  $url            = "https://github.com/assimp/assimp/archive/"
+  $url            = "https://codeload.github.com/assimp/assimp/tar.gz"
 ){
 
   Exec {
@@ -20,7 +20,7 @@ class assimp (
     before => Class["assimp::source"]
   }
 
-  $assimpurl="${url}/v${version}.zip"
+  $assimpurl="${url}/v${version}"
 
   class { assimp::source:
     version   => $version,

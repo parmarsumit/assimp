@@ -31,6 +31,6 @@ class assimp (
   }
   file_line { 'assimp_env':
     line => 'PATH=$PATH:/opt/assimp/bin',
-    path => '/etc/environment',
+    path => '/etc/bash.bashrc',
  }
 }

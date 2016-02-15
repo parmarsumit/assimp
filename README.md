@@ -1,10 +1,11 @@
 # assimp
-This document intended to show you how to build and install "assimp" package.
+This document is intended for build and installation of "assimp" package using puppet.
 
-You need to make sure puppet is install and on puppet client below denpedencies must resolve in order to install "assimp" using puppet.
+Prerequsites for this module are as follows:
+Puppet Master/agent
 
 ## Dependencies 
-Run following command to resolve the assimp puppet module 
+Run following command to resolve the dependencies.
 ```
 puppet module install camptocamp-archive
 puppet module install puppetlabs-apt
